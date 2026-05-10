@@ -10,6 +10,27 @@ A ready-to-run Linux audio system focused on:
 
 Write the image, boot the system, add music, and listen.
 
+
+########################################################
+
+## Download
+
+| File | Size | Source |
+|------|------|--------|
+| Sonia_en_I_small.img.xz | ~11 GB | [Internet Archive](https://archive.org/details/sonia-qji-linux-audio) |
+| Sonia_en_I.torrent | 50 KB | [This repository](./Sonia_en_I.torrent) |
+
+**Verify your download:**
+```bash
+sha256sum -c Sonia_en_I_small.img.xz.sha256
+```
+
+**Write to USB drive (macOS/Linux):**
+```bash
+xz -d Sonia_en_I_small.img.xz          # decompress first
+sudo dd if=Sonia_en_I_small.img of=/dev/sdX bs=4M status=progress
+```
+
 #############################################################################################################################
 
 Quick Start
