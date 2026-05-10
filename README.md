@@ -10,9 +10,6 @@ A ready-to-run Linux audio system focused on:
 
 Write the image, boot the system, add music, and listen.
 
-
-########################################################
-
 ## Download
 
 | File | Size | Source |
@@ -31,8 +28,7 @@ xz -d Sonia_en_I_small.img.xz          # decompress first
 sudo dd if=Sonia_en_I_small.img of=/dev/sdX bs=4M status=progress
 ```
 
-#############################################################################################################################
-
+###
 Quick Start
 1. Write the disk image
 
@@ -68,7 +64,8 @@ Qji 奏在
 Playback starts directly through ALSA.
 ---
 
-###############################################################################################################################
+###
+
 ## What Is Sonia?
 
 Sonia 奏在 is not a commercial product.
@@ -337,12 +334,9 @@ SI is optional. If the `sonia_intelligence/` directory or its dependencies are m
 ---
 
 ## Qobuz Streaming
+Under construction
 
-Qji includes a Qobuz streaming module (`qji_qobuz.py`) that plays lossless audio directly from Qobuz via:
 
-```
-Qobuz API → ffmpeg decoder → aplay → ALSA → DAC
-```
 
 **Setup required:**
 1. A valid Qobuz subscription (Sublime or Hi-Fi tier recommended for lossless)
@@ -418,7 +412,10 @@ or polished commercial UX.
 
 It is designed for focused listening.
 
-###Making bootable sonia disk
+
+☆☆☆
+###Making bootable sonia disk###
+
 1. Open the GitHub page and download the .torrent file.
 (It’s a small file, only a few dozen KB.) [1]
 2. Open the file with a BitTorrent client.
@@ -437,7 +434,9 @@ Use Rufus (free software). Open Rufus, select your USB drive, choose the .img fi
 Enter the BIOS/Boot menu (usually by pressing F12, F2, or Delete during startup) and select the USB drive.
 The Sonia/Qji screen should now load.
 
-###torrentから起動ディスク作成
+
+###torrentから起動ディスク作成###
+
 ① GitHubページを開く
    → .torrentファイルをダウンロード（数十KB）
 
