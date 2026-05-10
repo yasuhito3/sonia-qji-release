@@ -12,10 +12,13 @@ Write the image, boot the system, add music, and listen.
 
 ## Download
 
-| File | Size | Source |
-|------|------|--------|
-| Sonia_en_I_small.img.xz | ~11 GB | [Internet Archive](https://archive.org/details/sonia-qji-linux-audio) |
-| sonia-en-i-small.img_archive.torrent | 50 KB | [This repository](./sonia-en-i-small.img_archive.torrent) |
+| | Link | Size |
+|--|------|------|
+| 🔗 **Torrent file** | [sonia-en-i-small.img_archive.torrent](./sonia-en-i-small.img_archive.torrent) | 43 KB |
+| 🌐 **Internet Archive** | [archive.org/details/sonia-en-i-small.img](https://archive.org/details/sonia-en-i-small.img) | ~22 GB |
+
+The torrent is recommended. Open it with [qBittorrent](https://www.qbittorrent.org/) (free).  
+Or download directly from the Internet Archive page without a torrent client.
 
 **Verify your download:**
 ```bash
