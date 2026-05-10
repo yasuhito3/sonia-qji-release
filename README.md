@@ -418,6 +418,51 @@ or polished commercial UX.
 
 It is designed for focused listening.
 
+###Making bootable sonia disk
+1. Open the GitHub page and download the .torrent file.
+(It’s a small file, only a few dozen KB.) [1]
+2. Open the file with a BitTorrent client.
+(For Windows, qBittorrent is recommended. Download Sonia_en_I_small.img.xz. This file is over 10GB, so it will take some time.)
+3. Decompress (Extract) the file.
+Linux/Mac: Run xz -d Sonia_en_I_small.img.xz in the terminal.
+Windows: Right-click the file and use 7-Zip to extract it.
+(This will create a 22GB file named Sonia_en_I_small.img.)
+4. Flash the image to a USB drive (64GB or larger).
+Linux/Mac:
+sudo dd if=Sonia_en_I_small.img of=/dev/sdb bs=4M status=progress
+(Make sure to replace /dev/sdb with your actual USB device name.)
+Windows:
+Use Rufus (free software). Open Rufus, select your USB drive, choose the .img file, and click "Start."
+5. Restart your PC and boot from the USB drive.
+Enter the BIOS/Boot menu (usually by pressing F12, F2, or Delete during startup) and select the USB drive.
+The Sonia/Qji screen should now load.
+
+###torrentから起動ディスク作成
+① GitHubページを開く
+   → .torrentファイルをダウンロード（数十KB）
+
+② BitTorrentクライアントで開く
+   Windowsなら qBittorrent（無料）
+   → Sonia_en_I_small.img.xz を受信（10数GB、時間がかかる）
+
+③ 解凍する
+   Linux/Mac: xz -d Sonia_en_I_small.img.xz
+   Windows:   7-Zip で右クリック→解凍
+   → Sonia_en_I_small.img ができる（22GB）
+
+④ USBメモリ（64GB以上）に書き込む
+   Linux/Mac:
+     sudo dd if=Sonia_en_I_small.img of=/dev/sdb bs=4M status=progress
+     (/dev/sdb の部分は自分のUSBのデバイス名に変える)
+
+   Windows:
+     Rufus（無料ソフト）で書き込む
+     → Rufusを起動 → USBを選択 → imgファイルを選択 → スタート
+
+⑤ PCを再起動してUSBから起動
+   BIOSでUSBブートを選択（F12 か F2 か Delete）
+   → Sonia/Qji の画面が起動する
+
 
 
 
