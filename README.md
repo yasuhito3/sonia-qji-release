@@ -18,7 +18,7 @@ Write the image, boot the system, add music, and listen.
 | File | Size | Source |
 |------|------|--------|
 | Sonia_en_I_small.img.xz | ~11 GB | [Internet Archive](https://archive.org/details/sonia-qji-linux-audio) |
-| Sonia_en_I.torrent | 50 KB | [This repository](./Sonia_en_I.torrent) |
+| sonia-en-i-small.img_archive.torrent | 50 KB | [This repository](./sonia-en-i-small.img_archive.torrent) |
 
 **Verify your download:**
 ```bash
