@@ -64,7 +64,7 @@ The Sonia/Qji screen should now load.
 
 ② BitTorrentクライアントで開く
    Windowsなら qBittorrent（無料）
-   → Sonia_en_I_small.img.xz を受信（10数GB、時間がかかる）
+   → Sonia_en_I_small.img.xz を受信（約8GB、時間がかかる）
 
 ③ 解凍する
    Linux/Mac: xz -d Sonia_en_I_small.img.xz
