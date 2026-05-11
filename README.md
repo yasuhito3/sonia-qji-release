@@ -10,6 +10,9 @@ A ready-to-run Linux audio system focused on:
 
 Write the image, boot the system, add music, and listen.
 
+Sonia [HomePage](https://sites.google.com/view/aimusicplayer-sonia/)
+  If you have any question, you can access on this site.
+
 ## Download
 
 | | Link | Size |
